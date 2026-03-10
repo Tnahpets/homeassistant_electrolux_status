@@ -1,0 +1,261 @@
+{
+  "applianceId": "12345678_99:34100018-443E0745DA14",
+  "applianceData": {
+    "applianceName": "Wasmachine",
+    "created": "2023-11-29T14:48:00.083Z",
+    "modelName": "WM"
+  },
+  "properties": {
+    "desired": {},
+    "reported": {
+      "doorState": "CLOSED",
+      "timeToEnd": -1,
+      "displayLight": "DISPLAY_LIGHT_0",
+      "networkInterfaceAlwaysOn": "ON",
+      "miscellaneous": {
+        "defaultSoftPlus": false
+      },
+      "applianceUiSwVersion": "URDA003C",
+      "applianceTotalWorkingTime": 7369200,
+      "remoteControl": "NOT_SAFETY_RELEVANT_ENABLED",
+      "language": "ENGLISH",
+      "fCMiscellaneousState": {
+        "optisenseResult": 0,
+        "detergentExtradosage": 20,
+        "ecoLevel": 255,
+        "tankAReserve": false,
+        "tankBReserve": false,
+        "softenerExtradosage": 40,
+        "waterUsage": 49,
+        "tankADetLoadForNominalWeight": 70,
+        "tankBDetLoadForNominalWeight": 0,
+        "adTankBDetLoaded": 0,
+        "adTankBSoftLoaded": 0,
+        "adTankADetLoaded": 39
+      },
+      "cyclePhase": "UNAVAILABLE",
+      "endOfCycleSound": "SHORT_SOUND",
+      "stopTime": -1,
+      "startTime": -1,
+      "userSelections": {
+        "EWX1493A_ultraMix": false,
+        "EWX1493A_stain": false,
+        "adTankBSel": "AUTODOSE_SOFTENER_OFF",
+        "adFineTuneSoftLevel": "FINE_TUNE_SOFT_NOT_AVAILABLE",
+        "EWX1493A_wetMode": true,
+        "analogSpinSpeed": "1600_RPM",
+        "EWX1493A_easyIron": false,
+        "EWX1493A_rinseHold": false,
+        "EWX1493A_wmEconomy": false,
+        "EWX1493A_tcSensor": false,
+        "programUID": "COTTON_PR_COTTONS",
+        "EWX1493A_anticreaseNoSteam": false,
+        "EWX1493A_anticreaseWSteam": false,
+        "adTankASel": "AUTODOSE_DETERGENT_DUAL_ON",
+        "timeManagerLevel": "NORMAL",
+        "EWX1493A_dryMode": false,
+        "EWX1493A_preWashPhase": false,
+        "extraRinseNumber": "NONE",
+        "adFineTuneDetLevel": "FINE_TUNE_DET_LEV_3",
+        "EWX1493A_steamMode": false,
+        "analogTemperature": "40_CELSIUS",
+        "memoryId": 255,
+        "EWX1493A_nightCycle": false,
+        "steamValue": "STEAM_OFF",
+        "EWX1493A_intensive": false,
+        "EWX1493A_pod": false
+      },
+      "minFinishInTime": 0,
+      "defaultExtraRinse": "EXTRA_RINSE_OFF",
+      "waterHardness": "STEP_4",
+      "totalWashingTime": 4276800,
+      "applianceInfo": {
+        "applianceType": "WM",
+        "capabilityHash": "fc8d272514aef73f8d47328384ade0cc3d56fd6e69214fde8d3d9cd79806fa11"
+      },
+      "doorLock": "OFF",
+      "uiLockMode": false,
+      "washingNominalLoadWeight": 10000,
+      "cpv": "00",
+      "dwywWashData": {
+        "wmLoadWeight": 57,
+        "wmLoadMoisture": 45,
+        "dwywDataType": "FOR_TD",
+        "roomTemp": 255,
+        "wmLoadError": 20,
+        "programUID": "COTTON_PR_COTTONS"
+      },
+      "totalWashCyclesCount": 679,
+      "fcOptisenseLoadWeight": 65411,
+      "waterSoftenerMode": "WASH_ONLY",
+      "applianceState": "IDLE",
+      "applianceMode": "NORMAL",
+      "applianceMainBoardSwVersion": "WKB32010",
+      "totalCycleCounter": 679,
+      "measuredLoadWeight": 65535,
+      "alerts": [],
+      "networkInterface": {
+        "swVersion": "v3.0.0S_argo",
+        "otaState": "IDLE",
+        "linkQualityIndicator": "GOOD",
+        "niuSwUpdateCurrentDescription": "A23642201A-S00007645A",
+        "swAncAndRevision": "S00007645A"
+      },
+      "applianceCareAndMaintenance0": {
+        "1": {
+          "occured": false,
+          "threshold": 60
+        },
+        "2": {
+          "occured": false,
+          "threshold": 80
+        },
+        "3": {
+          "occured": false,
+          "threshold": 80
+        },
+        "4": {
+          "occured": false,
+          "threshold": 240
+        },
+        "5": {
+          "occured": false,
+          "threshold": 240
+        }
+      },
+      "remoteNotificationPending": "OFF",
+      "applianceCareAndMaintenance1": {
+        "6": {
+          "occured": false,
+          "threshold": 150
+        },
+        "7": {
+          "occured": false,
+          "threshold": 0
+        },
+        "8": {
+          "occured": false,
+          "threshold": 0
+        },
+        "9": {
+          "occured": false,
+          "threshold": 0
+        },
+        "10": {
+          "occured": false,
+          "threshold": 0
+        }
+      },
+      "applianceCareAndMaintenance2": {
+        "11": {
+          "occured": false,
+          "threshold": 0
+        }
+      },
+      "applianceCareAndMaintenance3": {
+        "16": {
+          "occured": false,
+          "threshold": 0
+        }
+      },
+      "cycleMemory3": {
+        "EWX1493A_ultraMix": false,
+        "EWX1493A_stain": false,
+        "EWX1493A_wetMode": true,
+        "EWX1493A_dryMode": false,
+        "EWX1493A_preWashPhase": false,
+        "analogSpinSpeed": "1200_RPM",
+        "EWX1493A_steamMode": false,
+        "EWX1493A_easyIron": false,
+        "EWX1493A_rinseHold": false,
+        "EWX1493A_wmEconomy": false,
+        "memoryId": 10,
+        "EWX1493A_nightCycle": false,
+        "EWX1493A_tcSensor": false,
+        "programUID": "SPORTWEAR_PR_SPORTWEAR_WX",
+        "EWX1493A_anticreaseNoSteam": false,
+        "EWX1493A_anticreaseWSteam": false,
+        "EWX1493A_intensive": false,
+        "EWX1493A_pod": false,
+        "timeManagerLevel": "NORMAL",
+        "adTankBSel": "AUTODOSE_SOFTENER_OFF",
+        "adFineTuneSoftLevel": "FINE_TUNE_SOFT_NOT_AVAILABLE",
+        "adTankASel": "AUTODOSE_DETERGENT_DUAL_ON",
+        "extraRinseNumber": "NONE",
+        "adFineTuneDetLevel": "FINE_TUNE_DET_LEV_3",
+        "analogTemperature": "30_CELSIUS",
+        "steamValue": "STEAM_OFF"
+      },
+      "autoDosing": {
+        "adTankBDetStandardDose": 55,
+        "adLocalFineTuning": false,
+        "adTankAConfiguration": "DETERGENT_DUAL",
+        "adTankBSoftStandardDose": 50,
+        "adTankBConfiguration": "SOFTENER",
+        "adTankADetStandardDose": 50
+      },
+      "cycleSubPhase": "NOT_AVAILABLE",
+      "connectivityState": "connected",
+      "cycleMemory2": {
+        "EWX1493A_ultraMix": false,
+        "EWX1493A_stain": false,
+        "EWX1493A_wetMode": true,
+        "EWX1493A_dryMode": false,
+        "EWX1493A_preWashPhase": false,
+        "analogSpinSpeed": "1600_RPM",
+        "EWX1493A_steamMode": false,
+        "EWX1493A_easyIron": false,
+        "EWX1493A_rinseHold": false,
+        "EWX1493A_wmEconomy": false,
+        "memoryId": 20,
+        "EWX1493A_nightCycle": false,
+        "EWX1493A_tcSensor": false,
+        "programUID": "BABY_PR_BABY_WM_WD",
+        "EWX1493A_anticreaseNoSteam": false,
+        "EWX1493A_anticreaseWSteam": false,
+        "EWX1493A_intensive": false,
+        "EWX1493A_pod": false,
+        "timeManagerLevel": "NORMAL",
+        "adTankBSel": "AUTODOSE_SOFTENER_OFF",
+        "adTankASel": "AUTODOSE_DETERGENT_DUAL_ON",
+        "extraRinseNumber": "PLUS_2_RINSE",
+        "adFineTuneDetLevel": "FINE_TUNE_DET_LEV_3",
+        "analogTemperature": "30_CELSIUS",
+        "steamValue": "STEAM_OFF",
+        "adFineTuneSoftLevel": "FINE_TUNE_SOFT_NOT_AVAILABLE"
+      },
+      "cycleMemory1": {
+        "EWX1493A_ultraMix": false,
+        "EWX1493A_stain": false,
+        "EWX1493A_wetMode": true,
+        "EWX1493A_dryMode": false,
+        "EWX1493A_preWashPhase": false,
+        "analogSpinSpeed": "800_RPM",
+        "EWX1493A_steamMode": false,
+        "EWX1493A_easyIron": false,
+        "EWX1493A_rinseHold": false,
+        "EWX1493A_wmEconomy": false,
+        "memoryId": 30,
+        "EWX1493A_nightCycle": false,
+        "EWX1493A_tcSensor": false,
+        "programUID": "DELICATE_PR_DELICATES",
+        "EWX1493A_anticreaseNoSteam": false,
+        "EWX1493A_anticreaseWSteam": false,
+        "EWX1493A_intensive": false,
+        "EWX1493A_pod": false,
+        "timeManagerLevel": "NORMAL",
+        "adTankBSel": "AUTODOSE_SOFTENER_OFF",
+        "adFineTuneSoftLevel": "FINE_TUNE_SOFT_NOT_AVAILABLE",
+        "adTankASel": "AUTODOSE_DETERGENT_DUAL_ON",
+        "extraRinseNumber": "NONE",
+        "adFineTuneDetLevel": "FINE_TUNE_DET_LEV_3",
+        "analogTemperature": "30_CELSIUS",
+        "steamValue": "STEAM_OFF"
+      }
+    },
+    "metadataDesired": {},
+    "metadata": {}
+  },
+  "status": "enabled",
+  "connectionState": "connected"
+}
