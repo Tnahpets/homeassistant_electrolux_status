@@ -23,6 +23,9 @@ class ElectroluxDevice:
     # with a name defined in the catalog
     friendly_name: str | None = None
 
+    # translation key for the entity name
+    translation_key: str | None = None
+
     # dictionary of the device capability
     # override and replace bad api data
     capability_info: dict[str, Any] = field(default_factory=dict)

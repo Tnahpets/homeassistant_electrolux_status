@@ -37,5 +37,47 @@
                 }
             }
         }
+    },
+    "entity": {
+        "sensor": {
+            "cycle_phase": { "name": "Cycle phase" },
+            "cycle_sub_phase": { "name": "Cycle sub-phase" },
+            "time_to_end": { "name": "Time remaining" },
+            "water_usage": { "name": "Water usage" },
+            "autodose_tank_a_level": { "name": "AutoDose tank A level" },
+            "autodose_tank_b_level": { "name": "AutoDose tank B level" },
+            "autodose_tank_a_setting": { "name": "AutoDose tank A setting" },
+            "autodose_tank_b_setting": { "name": "AutoDose tank B setting" },
+            "total_cycle_count": { "name": "Total cycle count" },
+            "total_washing_time": { "name": "Total washing time" },
+            "total_working_time": { "name": "Total working time" },
+            "measured_load_weight": { "name": "Measured load weight" },
+            "appliance_state": { "name": "Appliance state" },
+            "nominal_load_weight": { "name": "Nominal load weight" },
+            "water_hardness": { "name": "Water hardness" },
+            "remote_control_status": { "name": "Remote control status" },
+            "autodose_tank_a_config": { "name": "AutoDose tank A configuration" },
+            "autodose_tank_b_config": { "name": "AutoDose tank B configuration" },
+            "autodose_tank_a_std_dose": { "name": "AutoDose tank A standard dose" },
+            "autodose_tank_b_std_dose": { "name": "AutoDose tank B standard dose" },
+            "selected_temperature": { "name": "Selected temperature" },
+            "selected_spin_speed": { "name": "Selected spin speed" },
+            "time_manager_level": { "name": "Time manager level" },
+            "steam_value": { "name": "Steam value" },
+            "program_uid": { "name": "Program ID" }
+        },
+        "binary_sensor": {
+            "door_state": { "name": "Door state" },
+            "door_lock": { "name": "Door lock" },
+            "autodose_tank_a_low": { "name": "AutoDose tank A low level" },
+            "autodose_tank_b_low": { "name": "AutoDose tank B low level" },
+            "ui_lock": { "name": "UI lock" }
+        },
+        "button": {
+            "start_wash": { "name": "Start wash" },
+            "pause_wash": { "name": "Pause wash" },
+            "resume_wash": { "name": "Resume wash" },
+            "stop_wash": { "name": "Stop wash" }
+        }
     }
 }

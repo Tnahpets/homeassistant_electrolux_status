@@ -156,9 +156,19 @@ class ElectroluxEntity(CoordinatorEntity):
     @property
     def name(self) -> str:
         """Return the name of the sensor."""
-        if self.catalog_entry and self.catalog_entry.friendly_name:
-            return self.catalog_entry.friendly_name.capitalize()
+        if self.catalog_entry:
+            if self.catalog_entry.translation_key:
+                return None  # Let HA handle translation via translation_key
+            if self.catalog_entry.friendly_name:
+                return self.catalog_entry.friendly_name.capitalize()
         return self._name
+
+    @property
+    def translation_key(self) -> str | None:
+        """Return the translation key."""
+        if self.catalog_entry and self.catalog_entry.translation_key:
+            return self.catalog_entry.translation_key
+        return None
 
     @property
     def icon(self) -> str | None:

@@ -37,5 +37,47 @@
                 }
             }
         }
+    },
+    "entity": {
+        "sensor": {
+            "cycle_phase": { "name": "Cyclusfase" },
+            "cycle_sub_phase": { "name": "Cyclus sub-fase" },
+            "time_to_end": { "name": "Resterende tijd" },
+            "water_usage": { "name": "Waterverbruik" },
+            "autodose_tank_a_level": { "name": "AutoDose tank A niveau" },
+            "autodose_tank_b_level": { "name": "AutoDose tank B niveau" },
+            "autodose_tank_a_setting": { "name": "AutoDose tank A instelling" },
+            "autodose_tank_b_setting": { "name": "AutoDose tank B instelling" },
+            "total_cycle_count": { "name": "Totaal aantal cycli" },
+            "total_washing_time": { "name": "Totale wasduur" },
+            "total_working_time": { "name": "Totale werktijd" },
+            "measured_load_weight": { "name": "Gemeten beladingsgewicht" },
+            "appliance_state": { "name": "Apparaatstatus" },
+            "nominal_load_weight": { "name": "Nominaal beladingsgewicht" },
+            "water_hardness": { "name": "Waterhardheid" },
+            "remote_control_status": { "name": "Status afstandsbediening" },
+            "autodose_tank_a_config": { "name": "AutoDose tank A configuratie" },
+            "autodose_tank_b_config": { "name": "AutoDose tank B configuratie" },
+            "autodose_tank_a_std_dose": { "name": "AutoDose tank A standaard dosis" },
+            "autodose_tank_b_std_dose": { "name": "AutoDose tank B standaard dosis" },
+            "selected_temperature": { "name": "Geselecteerde temperatuur" },
+            "selected_spin_speed": { "name": "Geselecteerd centrifugetoerental" },
+            "time_manager_level": { "name": "Time Manager-niveau" },
+            "steam_value": { "name": "Stoomwaarde" },
+            "program_uid": { "name": "Programma-ID" }
+        },
+        "binary_sensor": {
+            "door_state": { "name": "Deurstatus" },
+            "door_lock": { "name": "Deurslot" },
+            "autodose_tank_a_low": { "name": "AutoDose tank A laag niveau" },
+            "autodose_tank_b_low": { "name": "AutoDose tank B laag niveau" },
+            "ui_lock": { "name": "UI-slot" }
+        },
+        "button": {
+            "start_wash": { "name": "Was starten" },
+            "pause_wash": { "name": "Was pauzeren" },
+            "resume_wash": { "name": "Was hervatten" },
+            "stop_wash": { "name": "Was stoppen" }
+        }
     }
 }
