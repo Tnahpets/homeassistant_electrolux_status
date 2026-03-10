@@ -16,6 +16,7 @@ from homeassistant.helpers.entity import EntityCategory
 
 from .catalog_purifier import A9
 from .catalog_refridgerator import EHE6899SA
+from .catalog_washing_machine_aeg import LR8MUNSTER
 from .model import ElectroluxDevice
 
 # definitions of model explicit overrides. These will be used to
@@ -23,6 +24,7 @@ from .model import ElectroluxDevice
 CATALOG_MODEL: dict[str, dict[str, ElectroluxDevice]] = {
     "EHE6899SA": EHE6899SA,
     "A9": A9,
+    "LR8MUNSTER": LR8MUNSTER,
 }
 
 CATALOG_BASE: dict[str, ElectroluxDevice] = {
